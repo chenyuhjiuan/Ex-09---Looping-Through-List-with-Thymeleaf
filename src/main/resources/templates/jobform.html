@@ -17,7 +17,7 @@
               th:errors="*{employer}"></span><br/>
         Description :<textarea rows="3" th:field="*{description}"/>
         <span th:if="${#fields.hasErrors('description')}"
-              th:errors="*{description}"></span>
+              th:errors="*{description}"></span><br/>
         <input type="submit" value="Submit">
     </form>
 </body>
